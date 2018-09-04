@@ -24,6 +24,10 @@ body {
     border-right: solid 1px grey;
 }
 
+.btn--no-radius {
+    border-radius: 0;
+}
+
 .text-red {
     color: #f72210;
 }
