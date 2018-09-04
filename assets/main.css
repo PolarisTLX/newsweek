@@ -20,7 +20,7 @@ body {
 }
 
 .no-padding-vert {
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .border-right {
@@ -40,11 +40,26 @@ body {
     margin-bottom: 0 !important;
 }
 
+.nav {
+    position: relative;
+}
+
+.nav::before {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    content: "";
+    display: block;
+    width: 100px;
+    background-color: #f72210;
+    border-left: 12px solid #fff;
+    border-top: 13px solid #f72210;
+}
+
 .nav__bottom-border {
     padding-bottom: 5px;
     border-bottom: solid 2px #eee;
 }
-
 
 .nav-item {
     font-size: 1.3rem;
@@ -65,7 +80,7 @@ body {
 }
 
 .sm-margin-left {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .header__title {
