@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.container__90 {
+    min-width: 90%;
+}
+
+.bg-red {
+    background-color: #f72210;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.border-right {
+    border-right: solid 1px grey;
+}
+
+.text-red {
+    color: #f72210;
+}
+
+.no-padding {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+}
+
+.gif {
+    width: 150px;
+}
+
+.indelible {
+    font-size: 0;
+    background: url("https://c-6rtwjumjzx7877x24x78x2esjbx78bjjpx2ehtr.g00.newsweek.com/g00/3_c-6bbb.sjbx78bjjp.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fx78.sjbx78bjjp.htrx2fx78nyjx78x2fbbb.sjbx78bjjp.htrx2fymjrjx78x2fsjbx78bjjpx2fnrfljx78x2fSIJQNGQJ.gqfhp8.lnkx3fn65h.rfwpx3dstyMYRQ_$/$/$/$/$/$/$") 15px 5px/89px no-repeat;
+    display: block;
+    width: 105px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sm-margin-left {
+    margin-left: 20px;
+}
+
+.header__title {
+    font-size: 6rem;
+}
