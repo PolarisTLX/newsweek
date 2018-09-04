@@ -7,8 +7,8 @@ body {
     margin-top: 200px;
 }
 
-.container__90 {
-    min-width: 90%;
+.container__min {
+    max-width: 1300px;
 }
 
 .bg-red {
@@ -16,8 +16,11 @@ body {
 }
 
 .margin-top {
-    margin-top: 20px;
-    border-bottom: solid 2px #eee;
+    margin-top: 15px;
+}
+
+.no-padding-vert {
+    padding: 0 10px;
 }
 
 .border-right {
@@ -38,7 +41,7 @@ body {
 }
 
 .nav__bottom-border {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     border-bottom: solid 2px #eee;
 }
 
@@ -53,7 +56,7 @@ body {
 
 .indelible {
     font-size: 0;
-    background: url("https://c-6rtwjumjzx7877x24x78x2esjbx78bjjpx2ehtr.g00.newsweek.com/g00/3_c-6bbb.sjbx78bjjp.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fx78.sjbx78bjjp.htrx2fx78nyjx78x2fbbb.sjbx78bjjp.htrx2fymjrjx78x2fsjbx78bjjpx2fnrfljx78x2fSIJQNGQJ.gqfhp8.lnkx3fn65h.rfwpx3dstyMYRQ_$/$/$/$/$/$/$") 0 10px/90px no-repeat;
+    background: url("https://c-6rtwjumjzx7877x24x78x2esjbx78bjjpx2ehtr.g00.newsweek.com/g00/3_c-6bbb.sjbx78bjjp.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fx78.sjbx78bjjp.htrx2fx78nyjx78x2fbbb.sjbx78bjjp.htrx2fymjrjx78x2fsjbx78bjjpx2fnrfljx78x2fSIJQNGQJ.gqfhp8.lnkx3fn65h.rfwpx3dstyMYRQ_$/$/$/$/$/$/$") 0 5px/90px no-repeat;
     display: block;
     width: 105px;
     height: 40px;
