@@ -17,6 +17,7 @@ body {
 
 .margin-top {
     margin-top: 20px;
+    border-bottom: solid 2px #eee;
 }
 
 .border-right {
@@ -31,6 +32,12 @@ body {
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
 }
+
+.nav__bottom-border {
+    padding-bottom: 10px;
+    border-bottom: solid 2px #eee;
+}
+
 
 .nav-item {
     font-size: 1.3rem;
