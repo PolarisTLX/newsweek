@@ -5,7 +5,7 @@ body {
 
 /* NAVBAR */
 .container {
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 .container__min {
@@ -119,4 +119,12 @@ body {
     /* text-decoration: none; */
     /* color: #f72210 !important; */
     text-decoration-color: #f72210;
+}
+
+.text-black-80 {
+    opacity: .75;
+}
+
+.sm-font {
+    font-size: .3rem;
 }
