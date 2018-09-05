@@ -4,10 +4,6 @@ body {
 }
 
 /* NAVBAR */
-.container {
-    /* margin-top: 200px; */
-}
-
 .container__min {
     max-width: 1300px;
 }
@@ -128,3 +124,4 @@ body {
 .sm-font {
     font-size: .3rem;
 }
+
