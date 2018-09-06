@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewsWeek</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
@@ -16,53 +15,43 @@
 
 <body>
     <header>
-        <div class="container container__min nav__bottom-border">
+        <nav class="container container__min pb-2 border-bottom d-none d-lg-block">
             <div class="row d-flex flex-row justify-content-between align-items-center text-white bg-red">
                 <p class="col-lg-2 no-padding">Tue, Sept. 4, 2018</p>
                 <h1 class="header__title">NewsWeek</h1>
                 <div class="col-lg-3 no-padding d-flex justify-content-around align-items-center">
                     <a href="#" class="text-light text-uppercase font-weight-bold">Signin</a>
-                    <button class="btn btn--no-radius
-                         text-red text-uppercase font-weight-bold">subscribe
+                    <button class="btn btn--no-radius text-red bg-white text-uppercase font-weight-bold">subscribe
                         <i class="fas fa-angle-right"></i>
                     </button>
                 </div>
             </div>
             <ul class="nav nav__angle margin-top">
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert"
-                        href="#">u.s.</a>
+                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert" href="#">u.s.</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert"
-                        href="#">world</a>
+                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert" href="#">world</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert"
-                        href="#">business</a>
+                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert" href="#">business</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert"
-                        href="#">tech
+                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert" href="#">tech
                         & science</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert"
-                        href="#">culture</a>
+                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert" href="#">culture</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert"
-                        href="#">sports</a>
+                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert" href="#">sports</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert"
-                        href="#">health</a>
+                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert" href="#">health</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert"
-                        href="#">opinion</a>
+                    <a class="nav-link font-weight-bold text-capitalize text-dark border-right no-padding-vert" href="#">opinion</a>
                 </li>
-
                 <li class="nav-item gif">
                     <a class="indelible no-padding-vert" href="#">Ndelible</a>
                 </li>
@@ -72,18 +61,31 @@
                     </span>
                 </li>
             </ul>
+        </nav>
+        <nav class="container container__min d-lg-none">
+            <div class="row">
+                <div class="col-11 p-2 text-right bg-black"><a class="text-white font-weight-bold lg-font" href="#">SIGN
+                        IN</a></div>
+                <div class="col-1 p-2 bg-white"><a class="text-red text-center font-weight-bold lg-font" href="#">SUBSCRIBE</a></div>
+            </div>
+            <div class="row d-flex justify-content-between align-items-center bg-red nav-mobile-bottom">
+                <div class="nav-movile-img-container">
+                    <img class="img-fluid card-img-top" src="assets/img/newsweek-logo.png" alt="img">
+                </div>
 
-        </div>
+                <i class="fas fa-bars text-white pr-3"></i>
+            </div>
+        </nav>
     </header>
-    <div class="main-container mt-4 mb-5 d-flex justify-content-center">
+    <div class=" main-container mt-4 mb-5 d-flex
+            justify-content-center">
         <div class="content-container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <h5 class="text-black-50 section-header">FEATURED STORIES</h5>
                     <div class="news-img-top pb-3 border-bottom pt-2">
                         <div class="news-img-top__img-container">
-                            <img class="img-fluid" src="assets/img/bolyardarmyafghanistankia.jpg"
-                                alt="image-1">
+                            <img class="img-fluid" src="assets/img/bolyardarmyafghanistankia.jpg" alt="image-1">
                             <span class="news-img-top__img-desc">U.S.</span>
                         </div>
                         <h3><a class="font-weight-bold text-dark news-img-top__link" href="#">U.S.
@@ -103,8 +105,7 @@
                     </div>
                     <div class="news-img-top pb-3 border-bottom">
                         <div class="news-img-top__img-container">
-                            <img class="img-fluid" src="assets/img/perisraelsyria01470082979.jpg"
-                                alt="image-2">
+                            <img class="img-fluid" src="assets/img/perisraelsyria01470082979.jpg" alt="image-2">
                             <span class="news-img-top__img-desc">World</span>
                         </div>
                         <h3><a class="font-weight-bold text-dark news-img-top__link" href="#">Syrians
@@ -184,8 +185,7 @@
                     <div class="news-img-left pt-3 pb-3 border-bottom">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg"
-                                    alt="image">
+                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg" alt="image">
                             </div>
                             <div class="col-md-8 ">
                                 <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
@@ -202,8 +202,7 @@
                     <div class="news-img-left pt-3 pb-3 border-bottom">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg"
-                                    alt="image">
+                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg" alt="image">
                             </div>
                             <div class="col-md-8">
                                 <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
@@ -220,8 +219,7 @@
                     <div class="news-img-left pt-3 pb-3 border-bottom">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg"
-                                    alt="image">
+                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg" alt="image">
                             </div>
                             <div class="col-md-8">
                                 <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
@@ -238,8 +236,7 @@
                     <div class="news-img-left pt-3 pb-3 border-bottom">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg"
-                                    alt="image">
+                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg" alt="image">
                             </div>
                             <div class="col-md-8">
                                 <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
@@ -256,8 +253,7 @@
                     <div class="news-img-left pt-3 pb-3 border-bottom">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg"
-                                    alt="image">
+                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg" alt="image">
                             </div>
                             <div class="col-md-8">
                                 <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
@@ -274,8 +270,7 @@
                     <div class="news-img-left pt-3 pb-3 border-bottom">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg"
-                                    alt="image">
+                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg" alt="image">
                             </div>
                             <div class="col-md-8">
                                 <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
@@ -292,8 +287,7 @@
                     <div class="news-img-left pt-3 pb-3 border-bottom">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg"
-                                    alt="image">
+                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg" alt="image">
                             </div>
                             <div class="col-md-8">
                                 <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
@@ -310,8 +304,7 @@
                     <div class="news-img-left pt-3 pb-3 border-bottom">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg"
-                                    alt="image">
+                                <img class="img-fluid" src="assets/img/gettyimages-995399146_0.jpg" alt="image">
                             </div>
                             <div class="col-md-8">
                                 <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
@@ -334,8 +327,7 @@
                                 <img src="assets/img/oped-writer.png" alt="opinion writer" class="img-fluid">
                             </div>
                             <div class="col-md-8 m-0">
-                                <p><a class="font-weight-bold text-dark news-img-top__link sm-font"
-                                        href="#">Punish
+                                <p><a class="font-weight-bold text-dark news-img-top__link sm-font" href="#">Punish
                                         Those Behind The Massacre, Not Those
                                         Exposing
                                         It</a></p>
@@ -348,8 +340,7 @@
                                 <img src="assets/img/oped-writer.png" alt="opinion writer" class="img-fluid">
                             </div>
                             <div class="col-md-8 m-0">
-                                <p><a class="font-weight-bold text-dark news-img-top__link sm-font"
-                                        href="#">Punish
+                                <p><a class="font-weight-bold text-dark news-img-top__link sm-font" href="#">Punish
                                         Those Behind The Massacre, Not Those
                                         Exposing
                                         It</a></p>
@@ -362,8 +353,7 @@
                                 <img src="assets/img/oped-writer.png" alt="opinion writer" class="img-fluid">
                             </div>
                             <div class="col-md-8 m-0">
-                                <p><a class="font-weight-bold text-dark news-img-top__link sm-font"
-                                        href="#">Punish
+                                <p><a class="font-weight-bold text-dark news-img-top__link sm-font" href="#">Punish
                                         Those Behind The Massacre, Not Those
                                         Exposing
                                         It</a></p>
@@ -376,8 +366,7 @@
                                 <img src="assets/img/oped-writer.png" alt="opinion writer" class="img-fluid">
                             </div>
                             <div class="col-md-8 m-0">
-                                <p><a class="font-weight-bold text-dark news-img-top__link sm-font"
-                                        href="#">Punish
+                                <p><a class="font-weight-bold text-dark news-img-top__link sm-font" href="#">Punish
                                         Those Behind The Massacre, Not Those
                                         Exposing
                                         It</a></p>
@@ -479,14 +468,12 @@
                     </div>
                     <div class="news-img-top pb-3 border border-light pt-2 card mb-5">
                         <div class="news-img-top__img-container">
-                            <img class="img-fluid card-img-top" src="assets/img/bolyardarmyafghanistankia.jpg"
-                                alt="image-1">
+                            <img class="img-fluid card-img-top" src="assets/img/bolyardarmyafghanistankia.jpg" alt="image-1">
                             <span class="news-img-top__img-desc text-uppercase d-block">sponser
                                 insight</span>
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title"><a class="font-weight-bold text-dark news-img-top__link"
-                                    href="#">Leading
+                            <h3 class="card-title"><a class="font-weight-bold text-dark news-img-top__link" href="#">Leading
                                     Engineering & Computer Science Programs of
                                     2018</a></h3>
                             <span class="card-text">As nations vie for an advantage in the
@@ -614,15 +601,13 @@
                     </div>
                 </div>
             </div>
-            <p class="text-dark text-uppercase text-center font-weight-bold mt-3 pb-3 border-bottom"><span
-                    class="py-1 px-2 mr-2 bg-red text-light font-weight-bold">N</span>editor's
+            <p class="text-dark text-uppercase text-center font-weight-bold mt-3 pb-3 border-bottom"><span class="py-1 px-2 mr-2 bg-red text-light font-weight-bold">N</span>editor's
                 pick</p>
             <div class="row">
                 <div class="col-lg-3">
                     <div class="news-img-top pb-3 pt-2">
                         <div class="news-img-top__img-container">
-                            <img class="img-fluid" src="assets/img/editorspick_tech-science.jpg"
-                                alt="image-1">
+                            <img class="img-fluid" src="assets/img/editorspick_tech-science.jpg" alt="image-1">
                             <span class="news-img-top__img-desc">TECH&SCIENCE</span>
                         </div>
                         <h3><a class="font-weight-bold text-dark news-img-top__link" href="#">Incredible
@@ -686,8 +671,7 @@
                 <div class="col-lg-3">
                     <div class="news-img-top pb-3 pt-2">
                         <div class="news-img-top__img-container">
-                            <img class="img-fluid" src="assets/img/editorspick_tech-science.jpg"
-                                alt="image-1">
+                            <img class="img-fluid" src="assets/img/editorspick_tech-science.jpg" alt="image-1">
                             <span class="news-img-top__img-desc">TECH&SCIENCE</span>
                         </div>
                         <h3><a class="font-weight-bold text-dark news-img-top__link" href="#">Incredible
@@ -747,8 +731,7 @@
                     </div>
                 </div>
             </div>
-            <p class="text-dark text-uppercase text-center font-weight-bold mt-3 pb-3 border-bottom"><span
-                    class="py-1 px-2 mr-2 bg-red text-light font-weight-bold">N</span>Featured
+            <p class="text-dark text-uppercase text-center font-weight-bold mt-3 pb-3 border-bottom"><span class="py-1 px-2 mr-2 bg-red text-light font-weight-bold">N</span>Featured
                 slideshows</p>
             <div class="row border-bottom">
                 <div class="col-lg-4">
@@ -855,8 +838,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -868,8 +850,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -881,8 +862,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -922,8 +902,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -935,8 +914,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -948,8 +926,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -990,8 +967,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -1003,8 +979,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -1016,8 +991,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -1029,8 +1003,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -1042,8 +1015,7 @@
                                     <img class="img-fluid" src="assets/img/prius.jpg" alt="image">
                                 </div>
                                 <div class="col-md-8">
-                                    <h5><a class="font-weight-bold text-dark news-img-top__link"
-                                            href="#">Kavanaugh
+                                    <h5><a class="font-weight-bold text-dark news-img-top__link" href="#">Kavanaugh
                                             Hearing
                                             Erupts Into Chaos</a></h5>
                                 </div>
@@ -1061,55 +1033,50 @@
                     <div class="col-md-8 col-sm-12">
                         <ul class="nav margin-top">
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">about us</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">about
+                                    us</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">corrections</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">corrections</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">contact us</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">contact
+                                    us</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">newsweek media group</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">newsweek
+                                    media group</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">travel</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">travel</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">advertise</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">advertise</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">copyright</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">copyright</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">terms & conditions</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">terms
+                                    & conditions</a>
                             </li>
 
                             <li class="nav-item md-font pb-0 mb-0">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">privacy policy</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">privacy
+                                    policy</a>
                             </li>
                             <li class="nav-item md-font pb-0 mb-0">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">cookie policy</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">cookie
+                                    policy</a>
                             </li>
 
                             <li class="nav-item md-font pb-0 mb-0">
-                                <a class="nav-link  text-dark text-gray border-right py-0 px-2"
-                                    href="#">Terms of Sale</a>
+                                <a class="nav-link  text-dark text-gray border-right py-0 px-2" href="#">Terms of
+                                    Sale</a>
                             </li>
 
                             <li class="nav-item md-font p-0">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">archive</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">archive</a>
                             </li>
 
                             <li class="nav-item md-font p-0 md-font">
@@ -1128,29 +1095,24 @@
                                     href="#">u.s edition</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">middle east</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">middle
+                                    east</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">日本</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">日本</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">
                                     한국</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">pakistan</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">pakistan</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">polska</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">polska</a>
                             </li>
                             <li class="nav-item md-font">
-                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2"
-                                    href="#">România</a>
+                                <a class="nav-link text-capitalize text-dark text-gray border-right py-0 px-2" href="#">România</a>
                             </li>
                         </ul>
                     </div>
