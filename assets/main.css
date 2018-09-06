@@ -37,11 +37,11 @@ body {
     margin-bottom: 0 !important;
 }
 
-.nav {
+.nav__angle {
     position: relative;
 }
 
-.nav::before {
+.nav__angle::before {
     position: absolute;
     top: -15px;
     right: -15px;
@@ -117,8 +117,8 @@ body {
     text-decoration-color: #f72210;
 }
 
-.text-black-80 {
-    opacity: .75;
+.text-gray {
+    color: #bbb !important;
 }
 
 .sm-font {
