@@ -125,6 +125,10 @@ body {
     font-size: .3rem;
 }
 
+.md-font {
+    font-size: .5rem;
+}
+
 .featured-slideshows_img-desc {
     position: absolute;
     left: 0;
