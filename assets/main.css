@@ -1,6 +1,7 @@
 /* NAVBAR DESKTOP */
 .container__max {
     max-width: 100%;
+
 }
 
 .bg-red {
@@ -9,6 +10,7 @@
 
 .bg-black {
     background-color: #000;
+    width: 75%;
 }
 
 .btn--no-radius {
