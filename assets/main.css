@@ -38,14 +38,6 @@
     margin-right: auto;
 }
 
-.sm-margin-left {
-    margin-left: 15px;
-}
-
-.header__title {
-    font-size: 6rem;
-}
-
 /* NAVBAR MOBILE */
 .nav-mobile-bottom {
     height: 2.3rem;
@@ -83,8 +75,6 @@
 }
 
 .news-text__link:hover {
-    /* text-decoration: none; */
-    /* color: #f72210 !important; */
     text-decoration-color: #f72210;
 }
 
@@ -124,14 +114,14 @@
     background-color: #f8f8f8;
 }
 
-@media screen and (min-width: 1530px) {
-    .xlg-font {
-        font-size: 1.4rem;
-    }
-}
-
 @media screen and (min-width: 1360px) {
     .xlg-font {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1530px) {
+    .xlg-font {
+        font-size: 1.4rem;
     }
 }
