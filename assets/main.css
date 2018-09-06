@@ -103,6 +103,10 @@
     font-size: .7rem;
 }
 
+.xlg-font {
+    font-size: .9rem;
+}
+
 .featured-slideshows_img-desc {
     position: absolute;
     left: 0;
@@ -117,4 +121,16 @@
 .sponsor-bottom-card {
     border: 1px solid #e6e6e6;
     background-color: #f8f8f8;
+}
+
+@media screen and (min-width: 1530px) {
+    .xlg-font {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    .xlg-font {
+        font-size: 1.2rem;
+    }
 }
