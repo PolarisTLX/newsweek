@@ -4,8 +4,8 @@ body {
 }
 
 /* NAVBAR DESKTOP */
-.container__min {
-    max-width: 1300px;
+.container__max {
+    max-width: 100%;
 }
 
 .bg-red {
